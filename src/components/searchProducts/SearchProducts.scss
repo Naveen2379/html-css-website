@@ -1,0 +1,10 @@
+.form-search-prods {
+    max-width: 564px;
+    .search-group {
+        display: inline-flex;
+        width: 100%;
+    }
+    .btn-search, .btn-primary {
+        margin-left: -50px;
+    }
+}
