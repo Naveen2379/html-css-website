@@ -4,11 +4,11 @@ import { Button, Form, FormControl, FormGroup, FormLabel, FormText } from "react
 import './SearchProducts.scss';
 
 
-interface SearchProps {
+interface SearchProductsProps {
     placeHolder: string;
 }
 
-const SearchProducts = ({ placeHolder }: SearchProps) => {
+const SearchProducts = ({ placeHolder }: SearchProductsProps) => {
     const [input, saveInput] = useState('');
     const [formData, setFormData] = useState({});
 

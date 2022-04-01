@@ -1,7 +1,8 @@
 {
-    "header-part": {
+    "header": {
         "search":{
             "placeholder": "Search for products, brands and more"
-        }
+        },
+        "login": "Login"
     }
 }

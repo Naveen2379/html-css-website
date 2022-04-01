@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import ControlledCarousel from './components/ControlledCarousel';
-import SearchProducts from './components/searchProducts/SearchProducts';
+import HeaderSection from './components/HeaderSection/HeaderSection';
 
 
 
@@ -9,7 +9,7 @@ import SearchProducts from './components/searchProducts/SearchProducts';
 function App() {
   return (
     <div className="App">
-      <SearchProducts />
+      <HeaderSection />
       <ControlledCarousel />
     </div>
   );
