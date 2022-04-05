@@ -1,0 +1,34 @@
+.header-section {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    background: #2874f0;
+    width: 100%;
+    height: 56px;
+    z-index: 10;
+    .header-total {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+    }
+    .header-middle {
+        max-width: 564px;
+    }
+    .header-right {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .login-anchor {
+            height: 32px;
+            font-weight: 500;
+            text-decoration: none;
+            background-color: #fff;
+            padding: 5px 40px;
+            border: 1px solid #dbdbdb;
+            border-radius: 2px;
+            cursor: pointer;
+
+        }
+    }
+}
