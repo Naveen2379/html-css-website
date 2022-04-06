@@ -9,26 +9,49 @@
     .header-total {
         display: flex;
         justify-content: space-between;
+        align-items: baseline;
         padding: 10px;
     }
     .header-middle {
         max-width: 564px;
     }
     .header-right {
-        width: 100%;
         display: flex;
-        justify-content: center;
-        align-items: center;
         .login-anchor {
-            height: 32px;
+            margin: 0px 20px;
+            display: flex;
             font-weight: 500;
             text-decoration: none;
             background-color: #fff;
-            padding: 5px 40px;
+            padding: 7.5px 40px;
             border: 1px solid #dbdbdb;
             border-radius: 2px;
             cursor: pointer;
 
+        }
+        .more-section {
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            margin: 0px 20px;
+            .more-label {
+                color: #fff;
+            }
+            .more-svg {
+                transform: rotate(270deg);
+                transition: transform .1s,-webkit-transform .1s;
+                margin: 1px 0 0 8px;
+            }
+        }
+        .cart-section {
+            display: flex;
+            align-items: center;
+            .cart-svg {
+                
+            }
+            .cart-label {
+                color: #fff;
+            }
         }
     }
 }

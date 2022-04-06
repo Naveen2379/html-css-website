@@ -3,6 +3,7 @@
         "search":{
             "placeholder": "Search for products, brands and more"
         },
-        "login": "Login"
+        "login": "Login",
+        "cart": "Cart"
     }
 }
